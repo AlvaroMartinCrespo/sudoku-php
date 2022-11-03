@@ -1,0 +1,67 @@
+.blue{
+    color: blue;
+    border: 2px solid black
+}
+
+.red{
+    color:red;
+    border: 2px solid black
+}
+
+.tableContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tabla{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input{
+
+    margin-top: 40px;
+    display: flex;
+
+}
+
+.button{
+    margin-left: 20px;
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+table{
+	border-collapse: collapse;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+td{
+	border-width: 1px;
+    width: 30px;
+	padding: 1px;
+	border-style: inset;
+	border-color: gray;
+	background-color: white;
+    text-align: center;
+
+}
+
+th{
+    border-width: 1px;
+	padding: 1px;
+	border-style: inset;
+	border-color: gray;
+	background-color: white;
+
+}
